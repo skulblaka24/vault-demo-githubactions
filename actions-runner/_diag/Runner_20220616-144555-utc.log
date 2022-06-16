@@ -162,3 +162,39 @@ Date: Thu, 16 Jun 2022 14:45:56 GMT
 [2022-06-16 15:03:48Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 1.
 [2022-06-16 15:03:48Z INFO JobNotification] Entering JobCompleted Notification
 [2022-06-16 15:03:48Z INFO JobNotification] Entering EndMonitor
+[2022-06-16 15:14:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/gauth/Library/Mobile Documents/com~apple~CloudDocs/Administratif/Professionnel/HashiCorp/Technologies/1. Products/Vault/Demos/Github_Actions/vault-guides/ecosystem/vault-github-action/Actions/actions-runner/.credentials_rsaparams
+[2022-06-16 15:14:12Z INFO MessageListener] Message '2' received from session 'baff9408-6357-49b7-998e-0c280b87420b'.
+[2022-06-16 15:14:12Z INFO Runner] Received job message of length 22038 from service, with hash '7c23c02d38305024796e4c0317804cd8cbd3ac83ebdaaa8b7c05519bd21073c9'
+[2022-06-16 15:14:12Z INFO JobDispatcher] Job request 2 for plan d5beb619-e63a-4d25-9ec5-e802289873c3 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2022-06-16 15:14:12Z INFO JobDispatcher] Pull OrchestrationId d5beb619-e63a-4d25-9ec5-e802289873c3.build.__default from JWT claims
+[2022-06-16 15:14:12Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2022-06-16 15:14:12Z INFO Terminal] WRITE LINE: 2022-06-16 15:14:12Z: Running job: build
+[2022-06-16 15:14:12Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-06-16 15:14:13Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 16/06/2022 15:24:13
+[2022-06-16 15:14:13Z INFO HostContext] Well known directory 'Bin': '/Users/gauth/Library/Mobile Documents/com~apple~CloudDocs/Administratif/Professionnel/HashiCorp/Technologies/1. Products/Vault/Demos/Github_Actions/vault-guides/ecosystem/vault-github-action/Actions/actions-runner/bin'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper] Starting process:
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   File name: '/Users/gauth/Library/Mobile Documents/com~apple~CloudDocs/Administratif/Professionnel/HashiCorp/Technologies/1. Products/Vault/Demos/Github_Actions/vault-guides/ecosystem/vault-github-action/Actions/actions-runner/bin/Runner.Worker'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 110 113'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Working directory: '/Users/gauth/Library/Mobile Documents/com~apple~CloudDocs/Administratif/Professionnel/HashiCorp/Technologies/1. Products/Vault/Demos/Github_Actions/vault-guides/ecosystem/vault-github-action/Actions/actions-runner/bin'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-06-16 15:14:13Z INFO ProcessInvokerWrapper] Process started with process id 37070, waiting for process exit.
+[2022-06-16 15:14:13Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-06-16 15:14:13Z INFO ProcessChannel] Sending message of length 22038, with hash '7c23c02d38305024796e4c0317804cd8cbd3ac83ebdaaa8b7c05519bd21073c9'
+[2022-06-16 15:14:13Z INFO JobNotification] Entering JobStarted Notification
+[2022-06-16 15:14:13Z INFO JobNotification] Entering StartMonitor
+[2022-06-16 15:14:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-06-16 15:14:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-06-16 15:14:23Z INFO ProcessInvokerWrapper] Finished process 37070 with exit code 102, and elapsed time 00:00:10.6408332.
+[2022-06-16 15:14:23Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2022-06-16 15:14:23Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2022-06-16 15:14:23Z INFO Terminal] WRITE LINE: 2022-06-16 15:14:23Z: Job build completed with result: Failed
+[2022-06-16 15:14:23Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-06-16 15:14:23Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 2.
+[2022-06-16 15:14:23Z INFO JobNotification] Entering JobCompleted Notification
+[2022-06-16 15:14:23Z INFO JobNotification] Entering EndMonitor
