@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SVC_NAME="actions.runner.skulblaka24-vault-demo-githubactions.runner-workshop-vault"
+SVC_NAME="actions.runner.skulblaka24-vault-demo-githubactions.runner-vault-workshop"
 SVC_NAME=${SVC_NAME// /_}
-SVC_DESCRIPTION="GitHub Actions Runner (skulblaka24-vault-demo-githubactions.runner-workshop-vault)"
+SVC_DESCRIPTION="GitHub Actions Runner (skulblaka24-vault-demo-githubactions.runner-vault-workshop)"
 
 user_id=`id -u`
 

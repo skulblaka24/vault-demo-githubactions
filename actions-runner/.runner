@@ -1,6 +1,6 @@
 ﻿{
-  "agentId": 3,
-  "agentName": "runner-workshop-vault",
+  "agentId": 4,
+  "agentName": "runner-vault-workshop",
   "poolId": 1,
   "poolName": "Default",
   "serverUrl": "https://pipelines.actions.githubusercontent.com/TSXaYDnalfoCHMdZYus5O7MCskS2s4sVpcvniGxau0L6tswXwc",
