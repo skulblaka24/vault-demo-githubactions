@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "runner-vault-workshop",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/TSXaYDnalfoCHMdZYus5O7MCskS2s4sVpcvniGxau0L6tswXwc",
+  "gitHubUrl": "https://github.com/skulblaka24/vault-demo-githubactions",
+  "workFolder": "_work"
+}
