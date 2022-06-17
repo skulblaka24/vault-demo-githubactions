@@ -9,7 +9,7 @@ jobs:
       - name: Import Secrets
         uses: hashicorp/vault-action@v2.4.0
         with:
-          url: https://vault-cluster-public-vault-64fd4a0f.eb70187e.z1.hashicorp.cloud:8200
+          url: https://vault-de-demonstration-public-vault-6e7b1280.a2370c4c.z1.hashicorp.cloud:8200
           tlsSkipVerify: true
           token: ${{ secrets.VAULT_TOKEN }}
           secrets: |
